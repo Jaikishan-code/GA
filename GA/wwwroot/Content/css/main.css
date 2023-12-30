@@ -1,0 +1,1525 @@
+:root {
+  --background-color-1:#DEEAF6;
+  --background-color-2:#f5f7fb;
+  --blue-color-1:#0F75BC;
+  --font-color-1:#101828;
+  --font-color-2:#667085;
+  --font-color-3:#344054;
+  --font-color-4:#0D6EFD;
+  --font-color-5:#ffffff;
+  --font-color-6:#131313;
+  --font-color-7:#000000;
+  }
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color:var(--background-color-2);
+}
+
+
+/*============================================================================================================================================================================ */
+
+/* Buttons Styling */
+
+.apply-btn {
+  background: var(--blue-color-1);
+  color: #fff;
+  margin-right: 8px;
+  width: 107px;
+  height: 40px;
+}
+.apply-btn span {
+  margin-right: 5px;
+}
+.apply-btn:hover {
+  background: var(--blue-color-1);
+  color: #fff;
+}
+.reset-btn {
+  color: var(--blue-color-1);
+  border: 1px solid var(--blue-color-1);
+  padding: 8px 24px;
+}
+.reset-btn:hover {
+  background: var(--blue-color-1);
+  color: #fff;
+}
+.btn-danger {
+  width: 105px;
+  height: 40px;
+  background: #DC3545;
+}
+.btn-search {
+  background: var(--blue-color-1);
+  color: #fff;
+  width: 113px;
+}
+.btn-search:hover {
+  background: var(--blue-color-1);
+  color: #fff;
+}
+.downlaod-btn {
+  width: 139px;
+  background: var(--blue-color-1);
+  color: #fff;
+  font-size: 16px;
+}
+.downlaod-btn span {
+  margin-right: 5px;
+}
+.btn-outline-dark-blue span {
+  margin-right: 5px;
+}
+.downlaod-btn:hover {
+  background: var(--blue-color-1);
+  color: #fff;
+}
+.btn-outline-dark-blue {
+  height: 40px;
+  color: var(--blue-color-1);
+  border: 1px solid var(--blue-color-1);
+}
+.btn-outline-dark-blue:hover {
+  color: var(--blue-color-1);
+  border: 1px solid var(--blue-color-1);
+}
+.emp-card .btn-check:checked+.btn, .emp-card .btn.active, .emp-card .btn.show, .emp-card .btn:first-child:active, .emp-card :not(.btn-check)+.btn:active {
+  background: var(--blue-color-1);
+  border: 1px solid var(--blue-color-1);
+}
+
+
+/*============================================================================================================================================================================ */
+
+.mb-20{
+  margin-bottom:20px;
+}
+.form-container{
+    background-color:#ffffff;
+    text-align:center;
+   
+}
+.form-col{
+  background-color:#ffffff;
+}
+.row-1{
+  height:100vh;
+}
+.ant-logo-gif{
+height:100%;
+}
+
+.side-col{
+  background-color: var(--background-color-1);
+ background: url(../assests/images/ezgif.com-video-to-gif\ \(2\).gif);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.ant-logo{
+  padding-bottom:56px;
+}
+.login-section .wlcm-txt{
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  color:var(--font-color-1);
+  margin-bottom:12px;
+}
+.login-section h6{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--font-color-2);
+  margin-bottom:32px;
+
+}
+.login-form label{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color:var(--font-color-3);
+}
+.login-form input{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.login-form{
+  text-align:left;
+}
+.form-check{
+  text-align:center;
+}
+.form-check p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color:var(--font-color-4);
+  margin:0;
+}
+.login-btn{
+  width:100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: var(--blue-color-1);
+}
+
+/*=============================================================================================================================================================================*
+/*=============================================================================DashBoard CSS==================================================================================*/
+/*============================================================================================================================================================================ */
+
+#page-topbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 307px;
+  z-index: 1002;
+  background-color: #fff;
+  padding:19px 41px 21px;
+  transition: left 0.5s ease-in-out;
+ 
+}
+.mob-view{
+  display:none;
+}
+.mob-flex{
+  display:flex;
+  align-items: center;
+}
+.mob-flex .user-name{
+  display:none;
+}
+.navbar-header{
+  display:flex;
+  align-items: center;
+}
+.usr-nm-container{
+  flex-grow: 1;
+}
+.usr-nm-container p{
+  margin:0;
+  color:var(--font-color-2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+.usr-nm-container h5{
+  margin-bottom:4px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  font-family: 'KoHo', sans-serif;
+}
+.date-container {
+  /* margin-right: 22px; */
+  padding: 15px 0px;
+  font-family: 'KoHo', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--font-color-2);
+}
+#curnt-date{
+  color:#000000;
+  margin-left:6px;
+}
+.dropdown-toggle::after {
+  display:none;
+}
+.notification-container {
+  /* padding: 15px 12px; */
+  margin: 0 35px;
+  position: relative;
+}
+.notification-container .red-circle {
+  top: 10px;
+  padding: 3px !important;
+  right: -6px;
+}
+.side-menu-col{
+  position:fixed;
+  top:0;
+  left:0;
+  background-color:var(--blue-color-1);
+  padding:0;
+  height:100vh;
+  box-shadow: 10px 0 0 var(--background-color-2);
+  overflow-x: hidden;
+  z-index:1;
+  width:307px;
+  transition: width 0.5s ease-in-out;
+ 
+}
+.main-content-col{
+  margin-left:307px;
+  padding-top:128px;
+  padding-left:32px;
+  padding-right:32px;
+  transition: margin-left 0.5s ease-in-out;
+}
+.bg-col{
+  background-color:var(--blue-color-1);
+}
+.sidebar-header{
+  padding: 20px 40px 20px 40px;
+  border-bottom:1px solid #ffffff;
+ 
+}
+/* .dashbrd-logo{
+  width:100%;
+  height:auto;
+} */
+.dashboard-section .nav-pills .nav-link {
+  color:var(--font-color-5);
+  padding:16px;
+  margin-left:55px;
+  border-radius:40px 0px 0px 40px;
+  transition: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 35px;
+}
+.dashboard-section .nav-pills{
+  margin-top:40px;
+ 
+}
+.dashboard-section .nav-pills .nav-link.active {
+  color:var(--blue-color-1);
+  background-color: var(--background-color-2);
+  position:relative;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+ 
+}
+
+.dashboard-section .nav-pills .nav-link.active::before{
+  position:absolute;
+  content:"";
+  background-color:var(--blue-color-1);
+  height: 30px;
+  width: 30px;
+  border-bottom-right-radius: 50%;
+  right: 0px;
+  top: -30px;
+  box-shadow:15px 15px 0px var(--background-color-2);
+ 
+}
+.dashboard-section .nav-pills .nav-link.active::after{
+  position:absolute;
+  content:"";
+  background-color:var(--blue-color-1);
+  height: 30px;
+  width: 30px;
+  border-top-right-radius: 50%;
+  right: 0px;
+  bottom: -30px;
+  box-shadow:15px -15px 0px var(--background-color-2)
+}
+.user-name{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'KoHo', sans-serif;
+  color: var(--font-color-6);
+  margin-left: 8px;
+}
+.usr-login-container .dropdown-toggle {
+  background: #F5F7FB;
+  border-radius: 66px;
+  border: none;
+}
+.drpdwn-arw-container{
+  margin-left:13px;
+}
+.usr-img{
+  border-radius:50%;
+}
+ .usr-login-container  .btn.show, .usr-login-container .btn:first-child:active {
+  color:var(--font-color-6);
+  background: #F5F7FB;
+}
+.menu{
+  text-align:center;
+  margin-bottom:0;
+  color:#ffffff;
+  margin-left:55px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.dashboard-icon{
+  display:none;
+}
+.dashboard-section .nav-pills .nav-link.active .dashboard-icon{
+  margin-right:16px;
+  display:inline;
+}
+#donut_chart {
+  max-width: 500px;
+  height:200px;
+ 
+}
+.dashboard-section .apexcharts-legend.apx-legend-position-right{
+  justify-content: end;
+  margin-bottom:30px;
+  right: 30px;
+}
+.dashboard-card{
+  background-color: #FFFFFF;
+  border-radius:10px;
+  height:100%;
+  padding:16px;
+}
+.prgrs-bar-dtls{
+  display: flex;
+}
+.prg-head{
+  flex-grow:1;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color:#000000;
+}
+.time-consume{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color:var(--font-color-2);
+}
+.dashboard-card h5{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--font-color-7);
+  font-family: 'KoHo', sans-serif;
+}
+.dashboard-card .awd{
+  margin-bottom:6px;
+}
+.dashboard-card h6{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color:var(--font-color-2);
+}
+.dashboard-card .progress:not(:last-child){
+  margin-bottom:16px;
+}
+.dashboard-card .progress:last-child{
+  margin-bottom: 8px;
+}
+
+.dashboard-cal .ui-datepicker {
+  width: 100%;
+}
+.dashboard-cal .ui-widget.ui-widget-content {
+  overflow-x: auto;
+}
+.dashboard-cal .ui-widget-content .ui-state-default{
+  padding:30px 16px;
+}
+.indicator {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 5px;
+}
+.indicator .dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #111;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.indicator .holiday .dot {
+  background: #36749C;
+}
+.indicator .weekly-off .dot {
+  background: #F0F1F2;
+}
+.indicator .absent .dot {
+  background: #DC3545;
+}
+.indicator .pending-leaves .dot {
+  background: #36749C;
+}
+.indicator .approved-leave .dot {
+  background: #198754;
+}
+.indicator .rejected-leave .dot {
+  background: #E5813A;
+}
+.indicator .holiday,
+.indicator .weekly-off,
+.indicator .absent,
+.indicator .pending-leaves,
+.indicator .approved-leave,
+.indicator .rejected-leave {
+  width: auto;
+}
+
+.emp-mnth-card{
+  display:flex;
+  margin-bottom:11px;
+}
+.emp-img img{
+  border-radius:50%;
+  width: 100%;
+    height: auto;
+}
+.emp-mnth-card .emp-name{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color:var(--font-color-7);
+  margin-bottom:0;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.emp-mnth-card .emp-position{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--font-color-2);
+}
+.nm-position{
+  flex-grow:1;
+  margin-left:18px;
+}
+.emp-mnth-card .proj-comp{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--font-color-7);
+}
+.leave-card{
+  background: #fff;
+}
+.leave-card h5{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--font-color-7);
+  font-family: 'KoHo', sans-serif;
+}
+.leave-card-head h5{
+  padding:20px 40px;
+  border-bottom:1px solid var(--background-color-2);
+  margin-bottom:0;
+}
+.leave-card-head img{
+  margin-right:10px;
+}
+.leave-card-body{
+  padding:12px 30px 20px;
+}
+.leave-card p{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--font-color-2);
+  margin-bottom:12px;
+}
+.accordion-container .accordion-item {
+  margin: 16px 0px;
+  border:none;
+  border-radius: 10px;
+}
+.accordion-container .accordion-button{
+  font-weight: 600;
+  font-family: 'KoHo', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--font-color-7);
+  border-radius: 10px !important;
+}
+.accordion-container .accordion-button:not(.collapsed) {
+  color: var(--font-color-7);
+  background-color:#fff; 
+  padding: 16px 23px 13px;
+  
+}
+.accordion-container .accordion-button.collapsed {
+  padding: 13px 23px;
+  
+}
+.accordion-container .accordion-button::after {
+  background-image:url('../assests/icons/dropdown.svg');
+  width:12px;
+  height:6px;
+  background-size:contain;
+}
+.accordion-container .accordion-button:focus{
+  border:none;
+  box-shadow: none;
+}
+.holiday-card{
+  display:flex;
+  margin-bottom:11px;
+}
+.card-date {
+ 
+  border-radius: 5px;
+ 
+}
+.holiday-card:nth-child(1) .card-date{
+  background: #B6FFB3;
+}
+.holiday-card:nth-child(2) .card-date{
+  background: #FFF1B4;
+}
+.holiday-card:nth-child(3) .card-date
+{background:#FFDFC1;
+}
+.holiday-card p,.holiday-card h5{
+  margin:0;
+}
+.holiday-card .hol-day{
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--font-color-7);
+}
+.name-day{
+  text-align:left;
+  margin-left:19px;
+}
+.holiday-card .day{
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--font-color-2);
+  margin:0;
+}
+.holiday-card .date,.holiday-card .month{
+  line-height:18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--font-color-7);
+}
+.card-date {
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  text-align: center;
+}
+.accordion-container .emp-img img{
+  border-radius:5px;
+}
+.accordion-container .emp-mnth-card .emp-name{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--font-color-7);
+}
+.accordion-container .emp-mnth-card .emp-position{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--font-color-2);
+  margin-bottom:0;
+}
+
+.dashbrd-small-logo{
+  display:none;
+}
+.main-content-col.active{
+  margin-left:82px;
+}
+.side-menu-col.active .dashbrd-logo{
+  display:none;
+}
+.side-menu-col.active .dashbrd-small-logo{
+  display:inline;
+  
+}
+.side-menu-col.active .sidebar-header{
+    padding: 19px 11px 21px 11px;
+
+}
+
+#page-topbar.active{
+  left:82px;
+ 
+}
+.side-menu-col.active{
+  width:82px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dashboard-section .side-menu-col.active .nav-pills .nav-link{
+  margin:0;
+  margin: 0;
+  background-color: #f9fafc;
+  border-radius:5px;
+  margin: 12.5px 17px;
+  padding:14px;
+  /* width: 48px;
+  height: 48px; */
+  
+}
+.side-menu-col.active .nav-pills .nav-link .dashboard-icon{
+  width:20px;
+  height:20px;
+  display:inline;
+  margin-right:0;
+  filter: brightness(0) saturate(100%) invert(39%) sepia(42%) saturate(196%) hue-rotate(182deg) brightness(103%) contrast(91%);
+}
+.side-menu-col .sidebar_cont{
+   transition: display 0.5s ease-in-out;
+}
+.side-menu-col.active .sidebar_cont{
+  display:none;
+ 
+}
+.side-menu-col.active .menu{
+  margin:0;
+}
+.dashboard-section .side-menu-col.active .nav-pills .nav-link.active::before {
+ display:none;
+}
+.dashboard-section .side-menu-col.active .nav-pills .nav-link.active::after {
+  display:none;
+ }
+ .dashboard-section .side-menu-col.active .nav-pills .nav-link.active {
+  background-color: var(--blue-color-1);
+}
+.dashboard-section .side-menu-col.active .nav-pills .nav-link.active .dashboard-icon {
+  filter: brightness(0) saturate(100%) invert(97%) sepia(100%) saturate(10%) hue-rotate(181deg) brightness(104%) contrast(105%);
+}
+/*=============================================================================================================================================================================*
+/*============================================================================= LMS CSS ==================================================================================*/
+/*============================================================================================================================================================================ */
+
+.lms-card {
+  background: #fff;
+  border-radius: 5px;
+  border: 0.5px solid #DCDCDC;
+  text-align: center;
+  padding: 20px;
+  height: 100%;
+}
+.lms-card .lms-card-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+.lms-card .btn {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.lms-card .btn:hover {
+  background: var(--blue-color-1);
+  border: 1px solid var(--blue-color-1);
+}
+.lms-leave-apply .mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.filter-dropdown .form-select {
+  width: 190px;
+  height: 40px;
+  border: 1px solid #CED4DA;
+  /* background: var(--background-color-2); */
+}
+.table {
+  --bs-table-striped-bg: var(--background-color-2);
+  background: var(--font-color-5);
+}
+.table th {
+  font-weight: 500;
+  font-size: 18px;
+  background-color: var(--blue-color-1);
+  color: var(--font-color-5);
+}
+.table td {
+  font-weight: 400;
+  font-size: 16px;
+}
+.table>:not(caption)>*>* {
+  /* padding: 24px; */
+  height: 69px;
+  line-height: 50px;
+}
+.table>tbody {
+  vertical-align: middle;
+}
+
+.table th:first-child{
+  border-top-left-radius: 20px;
+}
+.table th:last-child{
+  border-top-right-radius: 20px;
+}
+.table tr:last-child td:first-child{
+  border-bottom-left-radius: 20px;
+}
+.table tr:last-child td:last-child{
+  border-bottom-right-radius: 20px;
+}
+
+
+.badge {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 10px 16px;
+}
+.pending {
+  background: #FBFDE0;
+  color: #CA9E03;
+}
+.approved {
+  background: #E0FDEF;
+  color: #22B329;
+}
+.rejected {
+  background: #FBEAD3;
+  color: #FF0000;
+}
+
+.lms-leave-apply .lms-card {
+  padding: 12px;
+}
+.lms-card-footer {
+  margin-top: 5px;
+}
+.leave-count {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 5px;
+}
+.lms-leave-apply .row>* {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.txt {
+  text-align: left;
+}
+.short {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+}
+.long {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  font-family: 'KoHo', sans-serif;
+  color: #000000;
+}
+.modal-body,
+.modal-header,
+.modal-footer {
+  padding: 0;
+}
+.modal-content {
+  padding: 30px;
+}
+textarea.form-control {
+  width: 653px;
+  height: 105px;
+}
+.modal-body .form-check {
+  text-align: left;
+}
+.form-check label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.count {
+  background: #FCEBEC;
+  width: 111px;
+  height: 40px;
+  color: #DC3545;
+}
+.pickDate {
+  border: 1px solid #CECECE;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+.modal-open {
+  padding-right: 0 !important;
+  overflow: hidden !important;
+}
+.modal .modal-dialog {
+  -webkit-animation-name: bounce; 
+  animation-name: bounce;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+}
+@keyframes bounce { 
+  0% {transform: translateY(-4%);}
+  20% {transform: translateY(4%);}
+  /* 40% {transform: translateY(-15%);} */
+  60% {transform: translateY(-4%);}
+  /* 80% {transform: translateY(-5%);} */
+  100% {transform: translateY(0%);}
+}
+
+/*=============================================================================================================================================================================*
+/*=============================================================================Attendace CSS==================================================================================*/
+/*============================================================================================================================================================================ */
+
+.leaves-module {
+  background: var(--font-color-5);
+  padding: 25px 30px;
+  border-radius: 5px;
+  width: 782px;
+}
+.leaves-module .box .badge {
+  padding: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  width: 30px;
+  margin-right: 10px;
+  background: var(--background-color-2);
+}
+.leaves-module .box {
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 30px;
+  border-right: 1px solid #D9D9D9;
+}
+/* .lm-container div {
+  border-right: 1px solid #D9D9D9;
+} */
+.lm-container .box:last-child {
+  border: none;
+}
+.lm-container .box:not(:first-child) {
+  padding-left: 60px;
+}
+.green {
+  color: #37AE6F;
+}
+.orange {
+  color: #F57A20;
+}
+.red {
+  color: #FF0A18;
+}
+
+.attendace-summary-module {
+  background: #ffffff;
+  padding: 30px;
+}
+.attendace-summary-module h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'KoHo', sans-serif;
+}
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #000000;
+}
+.breadcrumb-item  {
+  color: var(--font-color-2);
+  font-weight: 400;
+  font-size: 14px;
+}
+input[type="date"] {
+  padding: 0 10px;
+}
+.attendace-summary-module label {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--font-color-2);
+}
+.entries-dropdown {
+  width: 72px;
+  margin: 0 12px;
+}
+.show-entries {
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+/* hr {
+  margin: 30px 0 !important;
+  border: 1px solid #D9D9D9;
+} */
+
+.ui-datepicker .ui-datepicker-header {
+  background: var(--blue-color-1);
+  color: #fff;
+}
+.attendance-table .rejected {
+  width: 100%;
+}
+.attendance-table .pending {
+  width: 100%;
+}
+
+
+
+
+.logout-module {
+  position: absolute;
+  bottom: 45px;
+  left: 30px;
+  color: #fff;
+}
+.logout-module .logout {
+  margin-top: 15px;
+}
+.logout-module.active{
+  left:0px;
+ 
+}
+.logout-module.active .lg-out-img-container{
+  background-color: #f9fafc;
+  border-radius: 5px;
+  margin: 12.5px 17px;
+  padding: 14px;
+}
+.logout-module.active .disp-none{
+  display:none;
+}
+.logout-module.active .lgout-img{
+
+  filter: brightness(0) saturate(100%) invert(14%) sepia(94%) saturate(7479%) hue-rotate(3deg) brightness(106%) contrast(131%);
+}
+.info {
+  margin: 0 20px 0 10px;
+}
+.info h4 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.info h5 {
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.lgout-usr-img {
+  width: 48px;
+  height: 48px;
+  border-radius:50%;
+}
+
+.emp-col-1 ul,
+.emp-col-2 ul {
+  padding-left: 0;
+}
+.emp-col-1 ul li,
+.emp-col-2 ul li {
+  list-style: none;
+}
+
+/*=============================================================================================================================================================================*
+/*=============================================================================Comp Off Request CSS==================================================================================*/
+/*============================================================================================================================================================================ */
+
+.compoff-module {
+  background: var(--font-color-5);
+  padding: 30px;
+}
+
+
+/*=============================================================================================================================================================================*
+/*=============================================================================Salary Slip CSS==================================================================================*/
+/*============================================================================================================================================================================ */
+.salary-module {
+  background: var(--font-color-5);
+  padding: 30px;
+  border-radius: 10px;
+}
+.salary-module h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+}
+.salary-table .table td {
+  font-weight: 500;
+}
+.salary-table .view-icon {
+  position: relative;
+  padding-right: 10px;
+}
+.salary-table .view-icon::after {
+  content: '';
+  position: absolute;
+  top: 14px;
+  background-color: #B0B0B0;
+  height: 25px;
+  width: 1px;
+  margin: 0 10px;
+}
+.download-icon {
+  padding-left: 10px;
+}
+.col-form-label {
+  font-size: 18px;
+  font-weight: 400;
+}
+.section-heading {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  font-family: 'KoHo', sans-serif;
+}
+
+
+/*=============================================================================================================================================================================*
+/*============================================================================= Manager Dashboard ==================================================================================*/
+/*============================================================================================================================================================================ *//*=============================================================================================================================================================================*
+/*============================================================================= LMS CSS ==================================================================================*/
+/*============================================================================================================================================================================ */
+
+
+
+/* ============ Approve Leave Page CSS ============= */
+.manager-att-module .proj-comp {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--font-color-2);
+}
+.manager-att-module .emp-name {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000612;
+}
+.manager-att-module .emp-position {
+  color: #667085;
+  font-weight: 300;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.manager-att-module .nm-position {
+  margin-left: 12px;
+}
+.manager-att-module .emp-img img {
+  width: 32px;
+  height: 32px;
+}
+.manager-att-module .leave-day {
+  /* border-top: 0.2px solid var(--font-color-2); */
+  border-bottom: 0.2px solid var(--font-color-2);
+}
+.manager-att-module .days:first-of-type .leave-day {
+  border-top: 0.2px solid var(--font-color-2);
+}
+.manager-att-module .leave-day h6 {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'KoHo', sans-serif;
+  color: var(--font-color-2);
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+.manager-att-module .emp-mnth-card {
+  margin-bottom: 8px;
+}
+.manager-att-module .days-container {
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-right: 10px;
+}
+.manager-att-module .days-container::-webkit-scrollbar {
+  width: 2px;
+}
+.manager-att-module .days-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.manager-att-module .days-container::-webkit-scrollbar-thumb {
+  background: var(--font-color-2);
+  border-radius: 10px;
+  min-height: 30px;
+}
+
+
+/*=============================================================================================================================================================================*
+/*============================================================================= HR/Admin Dashboard ==================================================================================*/
+/*============================================================================================================================================================================ *//*=============================================================================================================================================================================*
+/*============================================================================= LMS CSS ==================================================================================*/
+/*============================================================================================================================================================================ */
+
+.modal-dialog.smModel {
+  max-width: 500px !important;
+}
+.downlaod-temp {
+  background: var(--blue-color-1);
+  color: #fff;
+  font-size: 16px;
+}
+.downlaod-temp span {
+  margin-right: 5px;
+}
+.downlaod-temp:hover {
+  background: var(--blue-color-1);
+  color: #fff;
+}
+.form-label {
+  color: #000;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'KoHo', sans-serif;
+}
+
+
+.emp-cards-module {
+  margin-top: 32px;
+}
+.emp-cards-module .wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 24px;
+}
+.wrapper .emp-card {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 8px;
+  text-align: center;
+  position: relative;
+  box-shadow: rgba(10, 12, 15, 0.1) 0px 0px 12px;
+  cursor: pointer;
+}
+.emp-card .emp-img {
+  margin-top: 24px; 
+} 
+.emp-card .emp-img .avatar {
+  width: 95px;
+  height: 95px;
+  /* object-fit: contain; */
+}
+.emp-card .toggle {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.emp-card .emp-info {
+  background: #F9F8F5;
+  border-radius: 24px;
+  padding: 11px 16px;
+  text-align: left;
+  margin-top: 16px;
+}
+.emp-card .emp-name {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'KoHo', sans-serif;
+  margin-top: 8px;
+}
+.emp-card .designation {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: var(--font-color-2);
+}
+.emp-card .badge.bg-primary {
+  background-color: var(--blue-color-1) !important;
+  border-radius: 10px;
+  padding: 8px 16px;
+}
+.emp-card .badge.bg-outline-dark {
+  border-radius: 10px;
+  padding: 8px 16px;
+  color: #6D6D6D;
+  border: 1px solid #6D6D6D;
+}
+.emp-card .badge.bg-secondary {
+  border-radius: 10px;
+  color: #111;
+  background-color: #D5D4D5 !important;
+}
+.emp-card .badge {
+  border-radius: 10px;
+  padding: 8px 16px;
+}
+.emp-card .btn-check:checked+.btn, .emp-card .btn.active, .emp-card .btn.show, .emp-card .btn:first-child:active, .emp-card :not(.btn-check)+.btn:active {
+  background: var(--blue-color-1);
+  border: 1px solid var(--blue-color-1);
+}
+.emp-card .emp-role {
+  border-radius: 24px;
+  padding: 11px 16px;
+  text-align: left;
+  margin-top: 8px;
+}
+.emp-card .emp-role .emprolh {
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--font-color-2);
+}
+.emp-card .emp-role .emprolsb {
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--font-color-7);
+}
+.emp-card .emp-role .role-row {
+  margin-bottom: 5px;
+}
+.emp-card .emp-info .mail-icon, 
+.emp-card .emp-info .phone-icon {
+  width: 15px;
+  height: 12px;
+  object-fit: contain;
+}
+.emp-card .emp-info a {
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 17px;
+}
+.admin, .hr {
+  background: #FFE8A6;
+}
+.manager {
+  background: #D8CDFB;
+}
+.head {
+  background: #BDE8FB;
+}
+.employee {
+  background: #BCF0C5;
+}
+.inactive {
+  background: #D3D2D4;
+}
+
+.emp-toggle .nav-pills .nav-link.active {
+  position: inherit;
+}
+.emp-toggle .nav-pills .nav-link.active::before {
+  content: none;
+}
+.emp-toggle .nav-pills .nav-link.active::after {
+  content: none;
+}
+.emp-toggle .nav-pills .nav-link {
+  padding: 6px;
+  border-radius: 0;
+  margin-left: 0;
+}
+.emp-toggle .nav-pills {
+  background: #fff;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 20px;
+  margin-left: auto;
+}
+.emp-toggle .nav-pills .nav-link.active {
+  background: var(--blue-color-1);
+  border-radius: 50%;
+}
+.emp-toggle .nav-pills .nav-link.active .list-icon,
+.emp-toggle .nav-pills .nav-link.active .grid-icon {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(100%) saturate(0%) hue-rotate(31deg) brightness(111%) contrast(101%);
+}
+.list-icon, 
+.grid-icon {
+  width: 23px;
+}
+
+
+/* Employee Information Page */
+.emp-info-module {
+  padding-bottom: 30px;
+}
+.emp-img .empi-avatar {
+  width: 95px;
+  height: 95px;
+}
+.emp-info .emp-name {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: 'KoHo', sans-serif;
+}
+.emp-info .designation {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--font-color-2);
+  margin-bottom: 16px;
+}
+.emp-info h5{
+  font-weight: 400;
+  font-size: 16px;
+}
+.emp-info h5 span{
+  font-weight: 600;
+}
+.emp-info .btn-primary {
+  background: var(--blue-color-1);
+  border: 1px solid var(--blue-color-1);
+  padding: 5px 16px;
+  margin-top: 16px;
+}
+.emp-info-module .ei-title {
+  font-weight: 400;
+}
+.emp-info-module .ei-subt {
+  font-weight: 500;
+  color: var(--font-color-2);
+}
+.emp-info-module .emp-info-title {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'KoHo', sans-serif;
+  margin-bottom: 16px;
+}
+.emp-info-module .primary,
+.emp-info-module .secondary {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.emp-info-box {
+  display: grid;
+  height: 100%;
+}
+.emp-info-module .primary-contact {
+  padding-bottom: 16px;
+}
+.emp-info-module .secondary-contact {
+  border-top: 1px dashed #CCCCCC;
+  padding-top: 16px;
+}
+.emp-info-module .emp-bx-1 {
+  border-right: 1px dashed #CCCCCC;
+}
+.emp-info-module .emp-bx-2 {
+  padding-left: 24px;
+  position: relative;
+}
+.emp-info-module .emp-bx-2 .edit {
+  position: absolute;
+  right: 5px;
+  top: -10px;
+}
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+.timeline .timeline-item {
+  position: relative;
+}
+.timeline .timeline-item h5 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.timeline .timeline-item p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -40px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  content: "";
+}
+
+/* Edit Employee Information Page */
+.emp-info-module .emp-info-title {
+  /* margin-bottom: 0; */
+  margin-right: 20px;
+}
+/* .emp-info-module .edit-other-info {
+  border-top: 1px dashed #CCCCCC;
+} */
+.emp-info-head .form-check-input:checked {
+  background-color: #198754;
+  border-color: #198754;
+}
+.form-switch .form-check-input {
+  width: 36px;
+  height: 20px;
+}
+
+
+/*=============================================================================================================================================================================*
+/*============================================================================= Assign CSS ==================================================================================*/
+/*============================================================================================================================================================================ */
+.edit-icon {
+  cursor: pointer;
+}
+.add-emp-icon {
+  margin-bottom: 5px;
+}
+
+/* ======================= */
+.modal-footer {
+  border: none;
+}
+.mark-attendance-btn .apply-btn {
+  width: auto;
+}
+.star {
+  color: #DC3545;
+}
+
+/* ============= Edit Employee Details CSS =========== */
+.details-tab .nav-pills {
+  margin-top: 0;
+  background: #f9fafb;
+  padding: 4px;
+  border-radius: 6px;
+  width: fit-content;
+}
+.details-tab .nav-pills .nav-item:not(:last-of-type) {
+  padding-right: 8px;
+}
+.details-tab .nav-pills .nav-link {
+  border-radius: 0;
+  color: var(--font-color-2) !important;
+  margin-left: 0;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.details-tab .nav-pills .nav-link.active {
+  background-color: var(--blue-color-1);
+  color: #fff !important;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+.details-tab .nav-pills .nav-link.active::before {
+  content: none;
+}
+.details-tab .nav-pills .nav-link.active::after {
+  content: none;
+}
+.dash-line {
+  border-top: 1px dashed #CCCCCC;
+  margin: 16px 0 32px 0;
+}
+.emp-info-head .form-check-input:checked {
+  background-color: var(--blue-color-1);
+  border-color: var(--blue-color-1);
+}

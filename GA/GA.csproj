@@ -1,0 +1,116 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Content\assests\icons\add-emp-icon.svg" />
+    <None Include="wwwroot\Content\assests\icons\apply.svg" />
+    <None Include="wwwroot\Content\assests\icons\approve-leave.svg" />
+    <None Include="wwwroot\Content\assests\icons\assign-approver.svg" />
+    <None Include="wwwroot\Content\assests\icons\assign-compoff.svg" />
+    <None Include="wwwroot\Content\assests\icons\assign-notifier.svg" />
+    <None Include="wwwroot\Content\assests\icons\assign-wfh.svg" />
+    <None Include="wwwroot\Content\assests\icons\assign.svg" />
+    <None Include="wwwroot\Content\assests\icons\attendance-report.svg" />
+    <None Include="wwwroot\Content\assests\icons\bell-icon.svg" />
+    <None Include="wwwroot\Content\assests\icons\calendar-icon.svg" />
+    <None Include="wwwroot\Content\assests\icons\calendar.svg" />
+    <None Include="wwwroot\Content\assests\icons\compoff-request.svg" />
+    <None Include="wwwroot\Content\assests\icons\dashboard.svg" />
+    <None Include="wwwroot\Content\assests\icons\dashboard1.svg" />
+    <None Include="wwwroot\Content\assests\icons\download-icon.svg" />
+    <None Include="wwwroot\Content\assests\icons\download-icon1.svg" />
+    <None Include="wwwroot\Content\assests\icons\dropdown-arrow.svg" />
+    <None Include="wwwroot\Content\assests\icons\dropdown.svg" />
+    <None Include="wwwroot\Content\assests\icons\dropup.svg" />
+    <None Include="wwwroot\Content\assests\icons\edit-btn.svg" />
+    <None Include="wwwroot\Content\assests\icons\employee-attendance.svg" />
+    <None Include="wwwroot\Content\assests\icons\employee-list.svg" />
+    <None Include="wwwroot\Content\assests\icons\generate-salary-slip.svg" />
+    <None Include="wwwroot\Content\assests\icons\grid.svg" />
+    <None Include="wwwroot\Content\assests\icons\gss.svg" />
+    <None Include="wwwroot\Content\assests\icons\hr-admin.svg" />
+    <None Include="wwwroot\Content\assests\icons\human-resources.svg" />
+    <None Include="wwwroot\Content\assests\icons\leave-apply.svg" />
+    <None Include="wwwroot\Content\assests\icons\leave-policy.svg" />
+    <None Include="wwwroot\Content\assests\icons\leave-report.svg" />
+    <None Include="wwwroot\Content\assests\icons\list.svg" />
+    <None Include="wwwroot\Content\assests\icons\logout.svg" />
+    <None Include="wwwroot\Content\assests\icons\mail.svg" />
+    <None Include="wwwroot\Content\assests\icons\mark-attendance.svg" />
+    <None Include="wwwroot\Content\assests\icons\outline-delete.svg" />
+    <None Include="wwwroot\Content\assests\icons\phone.svg" />
+    <None Include="wwwroot\Content\assests\icons\punch-in-out.svg" />
+    <None Include="wwwroot\Content\assests\icons\reports.svg" />
+    <None Include="wwwroot\Content\assests\icons\salary.svg" />
+    <None Include="wwwroot\Content\assests\icons\tick.svg" />
+    <None Include="wwwroot\Content\assests\icons\toggle.svg" />
+    <None Include="wwwroot\Content\assests\icons\upload.svg" />
+    <None Include="wwwroot\Content\assests\icons\user-1.svg" />
+    <None Include="wwwroot\Content\assests\icons\view-icon.svg" />
+    <None Include="wwwroot\Content\assests\icons\view-icon1.svg" />
+    <None Include="wwwroot\Content\assests\icons\white-download-icon.svg" />
+    <None Include="wwwroot\Content\assests\images\ANT-login.gif" />
+    <None Include="wwwroot\Content\assests\images\antllp-logo-01.png" />
+    <None Include="wwwroot\Content\assests\images\antllp-logo-dashboard.png" />
+    <None Include="wwwroot\Content\assests\images\antllp-logo-dashboard1.png" />
+    <None Include="wwwroot\Content\assests\images\antllp-logo-sidebar-small.jpg" />
+    <None Include="wwwroot\Content\assests\images\avatar.png" />
+    <None Include="wwwroot\Content\assests\images\birthday-1.jpg" />
+    <None Include="wwwroot\Content\assests\images\birthday-2.jpg" />
+    <None Include="wwwroot\Content\assests\images\birthday-3.jpg" />
+    <None Include="wwwroot\Content\assests\images\casual-leave.png" />
+    <None Include="wwwroot\Content\assests\images\compoff-assign.png" />
+    <None Include="wwwroot\Content\assests\images\compoff.png" />
+    <None Include="wwwroot\Content\assests\images\emp-1.jpg" />
+    <None Include="wwwroot\Content\assests\images\emp-2.jpg" />
+    <None Include="wwwroot\Content\assests\images\employee-attendance.png" />
+    <None Include="wwwroot\Content\assests\images\ezgif.com-resize.gif" />
+    <None Include="wwwroot\Content\assests\images\ezgif.com-video-to-gif %282%29.gif" />
+    <None Include="wwwroot\Content\assests\images\favicon.png" />
+    <None Include="wwwroot\Content\assests\images\leave-apply.png" />
+    <None Include="wwwroot\Content\assests\images\leave-policy.png" />
+    <None Include="wwwroot\Content\assests\images\leave-without-pay.png" />
+    <None Include="wwwroot\Content\assests\images\maternity-leave.png" />
+    <None Include="wwwroot\Content\assests\images\outdoor-leave.png" />
+    <None Include="wwwroot\Content\assests\images\privilege-leave.png" />
+    <None Include="wwwroot\Content\assests\images\sick-leave.png" />
+    <None Include="wwwroot\Content\assests\images\user.jpg" />
+    <None Include="wwwroot\Content\assests\images\work-from-home.png" />
+    <None Include="wwwroot\Content\assests\images\Yellow Modern Quote Motivation Instagram Post %281%29.mp4" />
+    <None Include="wwwroot\Content\css\all.min.css" />
+    <None Include="wwwroot\Content\css\bootstrap.min.css" />
+    <None Include="wwwroot\Content\css\fontawesome.min.css" />
+    <None Include="wwwroot\Content\css\jquery-ui.min.css" />
+    <None Include="wwwroot\Content\css\jquery-ui.theme.min.css" />
+    <None Include="wwwroot\Content\css\main.css" />
+    <None Include="wwwroot\Content\css\owl.carousel.min.css" />
+    <None Include="wwwroot\Content\css\owl.theme.default.css" />
+    <None Include="wwwroot\Content\css\owl.theme.default.min.css" />
+    <None Include="wwwroot\Content\css\responsive.css" />
+    <None Include="wwwroot\Content\js\all.min.js" />
+    <None Include="wwwroot\Content\js\apexcharts.min.js" />
+    <None Include="wwwroot\Content\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\Content\js\fontawesome.min.js" />
+    <None Include="wwwroot\Content\js\jquery-ui.min.js" />
+    <None Include="wwwroot\Content\js\jquery.min.js" />
+    <None Include="wwwroot\Content\js\main.js" />
+    <None Include="wwwroot\Content\js\owl.carousel.js" />
+    <None Include="wwwroot\Content\js\owl.carousel.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entity\Admin\" />
+    <Folder Include="Entity\Teacher\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>

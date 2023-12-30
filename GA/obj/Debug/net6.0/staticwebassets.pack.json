@@ -1,0 +1,641 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GA.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GA.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\add-emp-icon.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\add-emp-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\apply.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\apply.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\approve-leave.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\approve-leave.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\assign-approver.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\assign-approver.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\assign-compoff.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\assign-compoff.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\assign-notifier.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\assign-notifier.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\assign-wfh.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\assign-wfh.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\assign.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\assign.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\attendance-report.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\attendance-report.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\bell-icon.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\bell-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\calendar-icon.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\calendar-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\calendar.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\compoff-request.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\compoff-request.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\dashboard.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\dashboard.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\dashboard1.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\dashboard1.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\download-icon.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\download-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\download-icon1.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\download-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\dropdown-arrow.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\dropdown-arrow.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\dropdown.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\dropdown.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\dropup.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\dropup.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\edit-btn.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\edit-btn.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\employee-attendance.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\employee-attendance.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\employee-list.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\employee-list.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\generate-salary-slip.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\generate-salary-slip.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\grid.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\grid.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\gss.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\gss.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\hr-admin.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\hr-admin.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\human-resources.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\human-resources.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\leave-apply.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\leave-apply.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\leave-policy.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\leave-policy.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\leave-report.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\leave-report.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\list.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\list.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\logout.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\logout.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\mail.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\mail.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\mark-attendance.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\mark-attendance.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\outline-delete.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\outline-delete.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\phone.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\punch-in-out.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\punch-in-out.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\reports.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\reports.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\salary.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\salary.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\tick.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\tick.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\toggle.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\toggle.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\upload.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\upload.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\user-1.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\user-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\view-icon.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\view-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\view-icon1.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\view-icon1.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\icons\\white-download-icon.svg",
+      "PackagePath": "staticwebassets\\Content\\assests\\icons\\white-download-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\ANT-login.gif",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\ANT-login.gif"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\Yellow Modern Quote Motivation Instagram Post (1).mp4",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\Yellow Modern Quote Motivation Instagram Post (1).mp4"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\antllp-logo-01.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\antllp-logo-01.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\antllp-logo-dashboard.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\antllp-logo-dashboard.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\antllp-logo-dashboard1.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\antllp-logo-dashboard1.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\antllp-logo-sidebar-small.jpg",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\antllp-logo-sidebar-small.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\birthday-1.jpg",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\birthday-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\birthday-2.jpg",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\birthday-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\birthday-3.jpg",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\birthday-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\casual-leave.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\casual-leave.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\compoff-assign.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\compoff-assign.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\compoff.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\compoff.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\emp-1.jpg",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\emp-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\emp-2.jpg",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\emp-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\employee-attendance.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\employee-attendance.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\ezgif.com-resize.gif",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\ezgif.com-resize.gif"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\ezgif.com-video-to-gif (2).gif",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\ezgif.com-video-to-gif (2).gif"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\leave-apply.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\leave-apply.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\leave-policy.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\leave-policy.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\leave-without-pay.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\leave-without-pay.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\maternity-leave.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\maternity-leave.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\outdoor-leave.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\outdoor-leave.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\privilege-leave.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\privilege-leave.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\sick-leave.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\sick-leave.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\assests\\images\\work-from-home.png",
+      "PackagePath": "staticwebassets\\Content\\assests\\images\\work-from-home.png"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Content\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\Content\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\Content\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\Content\\css\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\main.css",
+      "PackagePath": "staticwebassets\\Content\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Content\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Content\\css\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Content\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Content\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\Content\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\Content\\js\\apexcharts.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Content\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\Content\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\Content\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Content\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\main.js",
+      "PackagePath": "staticwebassets\\Content\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Content\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\Content\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Content\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\jaiki\\Downloads\\GA\\GA\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GA.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GA.props",
+      "PackagePath": "build\\GA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GA.props",
+      "PackagePath": "buildMultiTargeting\\GA.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GA.props",
+      "PackagePath": "buildTransitive\\GA.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

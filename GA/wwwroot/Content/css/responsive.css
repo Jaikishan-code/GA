@@ -1,0 +1,199 @@
+@media screen and (min-width: 320px){
+    .ant-logo{
+        width:200px;
+    }
+    .side-col{
+        display:none;
+    }
+    .dashboard-card{
+        height:auto;
+        margin-bottom: 20px;
+    }
+    .mob-view{
+        display:flex;
+        flex-direction:column;
+    }
+    .navbar-header{
+        display:none;
+    }
+    #page-topbar{
+        padding:0px 20px;
+    }
+    .main-content-col{
+        margin-left:82px;
+    }
+    .side-menu-col{
+        z-index:9999;
+    }
+    #page-topbar{
+        left:82px;
+    }
+}
+
+@media screen and (min-width: 375px){
+   
+    .ant-logo{
+        width:200px;
+    }
+   
+}
+
+@media screen and (min-width: 425px){
+    .form-container{
+        padding:0px 16px;
+    }
+    .ant-logo{
+        width:200px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .ant-logo{
+        width:200px;
+    }
+    .side-col{
+        display:inherit;
+    }
+    .modal-dialog {
+        max-width: auto;
+    }
+    textarea.form-control {
+        width: 100%;
+    }
+   .side-menu-col{
+        z-index:1;
+    }
+    #page-topbar{
+        left:307px;
+    }
+   .form-container{
+        padding:0px 40px;
+    }
+    textarea.form-control {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .ant-logo{
+        width:250px;
+    }
+    /* .usr-nm-container {
+        padding-left: 40px;
+    } */
+    .mob-view{
+        display:none;
+    }
+    .navbar-header{
+        display:flex;
+    }
+    #page-topbar{
+        padding: 19px 41px 21px;
+    }
+    .main-content-col{
+        margin-left:307px;
+    }
+    .dashboard-card{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+    .leaves-module {
+        width: auto;
+    }
+    .lm-container .box:not(:first-child) {
+        padding: 0;
+    }
+    .leaves-module .box {
+        padding: 0;
+    }
+    .leaves-module .col-lg-3 {
+        flex: 0 0 auto;
+        width: 28%;
+    }
+    .btn-search {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .ant-logo{
+        width:360px;
+    }
+    .dashboard-card{
+      height:100%;
+    }
+  
+}
+
+@media screen and (min-width: 1440px){
+    .login-form{
+        max-width:500px;
+        margin:auto;
+    }
+
+}
+
+@media screen and (min-width: 1600px){
+    /* .col-xxl-3 {
+        width: 15.66%;
+    }
+    .col-xxl-9 {
+        width: 72.333333%;
+    } */
+    .logout-module {
+        left: 65px;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1440px) {
+    .side-menu-col {
+        width: 240px;
+    }
+    #page-topbar {
+        left: 240px;
+    }
+    .main-content-col {
+        margin-left: 220px;
+        padding-top: 128px;
+        padding-left: 32px;
+        padding-right: 10px;
+    }
+    .sidebar-header {
+        padding: 21px 0px 21px 10px;
+    }
+
+    .dashboard-section .nav-pills .nav-link {
+        margin-left: 45px;
+    }
+    .details-tab .nav-pills .nav-link {
+        margin-left: 0;
+    }
+    .lgout-usr-img {
+        width: 35px;
+        height: 35px;
+    }
+    .info h4 {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .info h5 {
+        font-weight: 400;
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .info {
+        margin: 0 15px 0 10px;
+    }
+    .lms-card .btn {
+        font-size: 11px;
+    }
+    .logout-module {
+        font-size: 15px;
+    }
+    .emp-toggle .nav-pills .nav-link {
+        margin-left: 0;
+    }
+}
