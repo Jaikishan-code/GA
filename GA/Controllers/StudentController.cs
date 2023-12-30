@@ -18,8 +18,12 @@ namespace GA.Controllers
                     .Select(c => new stdClassmodel { classid = c.STD_CLID, stdent_Class = c.STD_CLNAME })
                     .ToList();
             ViewBag.Classes = classes;
+            // Retrieve data from the database
+            var PreAdmisiionstudentList = _dbContext.GA_STDPREADMISSION.ToList();
+            ViewBag.Preadmission = PreAdmisiionstudentList;
 
             return View();
+
         }
 
         [HttpPost]
@@ -50,6 +54,7 @@ namespace GA.Controllers
                         STD_MEDIUM = viewModel.STD_MEDIUM,
                         STD_AFEES = viewModel.STD_AFEES,
                         STD_STSID = 10,
+                        STD_ENTRYDATE = DateTime.Now,
                         STD_UNIQUECODE = uniqueCode // Set the unique code property
                     };
 

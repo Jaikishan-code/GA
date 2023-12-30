@@ -27,5 +27,7 @@ namespace GA.Entity.Student
         public int STD_STSID { get; set; }
 
         public string STD_MEDIUM { get; set; }
+
+        public DateTime STD_ENTRYDATE { get; set; }
     }
 }

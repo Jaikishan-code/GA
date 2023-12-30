@@ -1,4 +1,5 @@
-﻿@{
+﻿@using GA.Entity.Student;
+@{
     Layout = null;
 }
 @model GA.Models.Student.StudentPreAdmission
@@ -418,252 +419,43 @@
 
                                 <div class="emp-cards-module mb-5">
                                     <div class="wrapper">
-
-                                        <div class="emp-card">
-                                            <a href="employee-info.html">
+                                        @foreach (var student in ViewBag.Preadmission)
+                                        {
+                                            <div class="emp-card">
                                                 <div class="emp-img">
                                                     <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
                                                 </div>
                                                 <a href="edit-employee-info.html">
                                                     <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
                                                 </a>
-                                                <h4 class="emp-name">Rohit Satarkar</h4>
-                                                <h6 class="designation">Admin</h6>
-                                                <span class="badge bg-secondary">UAE</span>
-                                                <!-- <button type="button" class="btn btn-secondary">UAE</button> -->
+                                                <h4 class="emp-name">@($"{student.STD_FNAME} {student.STD_LNAME}")</h4>
+                                                <h6 class="designation">@student.STD_CLASS</h6>
+                                                <span class="badge bg-primary">Active</span>
+
                                                 <div class="emp-info">
                                                     <div class="mail">
                                                         <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                        <a href="#">satarkar@antllp.com</a>
+                                                        <a href="#">@student.STD_UNIQUECODE</a>
                                                     </div>
                                                     <div class="phone">
                                                         <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                        <a href="#">9876543210</a>
+                                                        <a href="#">@student.STD_MOBILENO</a>
                                                     </div>
-                                            </a>
-                                        </div>
-                                        <div class="emp-role admin">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">Admin</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="emp-card">
-                                        <div class="emp-img">
-                                            <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
-                                        </div>
-                                        <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
-                                        <h4 class="emp-name">Deepali Jadhav</h4>
-                                        <h6 class="designation">HR</h6>
-                                        <span class="badge bg-primary">Active</span>
-                                        <!-- <button type="button" class="btn btn-primary">Active</button> -->
-                                        <div class="emp-info">
-                                            <div class="mail">
-                                                <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                <a href="#">satarkar@antllp.com</a>
-                                            </div>
-                                            <div class="phone">
-                                                <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                <a href="#">9876543210</a>
-                                            </div>
-                                        </div>
-                                        <div class="emp-role hr">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">HR</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="emp-card">
-                                        <div class="emp-img">
-                                            <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
-                                        </div>
-                                        <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
-                                        <h4 class="emp-name">Sachin jangam</h4>
-                                        <h6 class="designation">Manager</h6>
-                                        <span class="badge bg-primary">Active</span>
-                                        <!-- <button type="button" class="btn btn-primary">Active</button> -->
-                                        <div class="emp-info">
-                                            <div class="mail">
-                                                <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                <a href="#">satarkar@antllp.com</a>
-                                            </div>
-                                            <div class="phone">
-                                                <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                <a href="#">9876543210</a>
-                                            </div>
-                                        </div>
-                                        <div class="emp-role manager">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">Manager</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="emp-card">
-                                        <div class="emp-img">
-                                            <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
-                                        </div>
-                                        <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
-                                        <h4 class="emp-name">Harshad satarkar</h4>
-                                        <h6 class="designation">Head</h6>
-                                        <span class="badge bg-primary">Active</span>
-                                        <!-- <button type="button" class="btn btn-primary">Active</button> -->
-                                        <div class="emp-info">
-                                            <div class="mail">
-                                                <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                <a href="#">satarkar@antllp.com</a>
-                                            </div>
-                                            <div class="phone">
-                                                <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                <a href="#">9876543210</a>
-                                            </div>
-                                        </div>
-                                        <div class="emp-role head">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">Head</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="emp-card">
-                                        <div class="emp-img">
-                                            <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
-                                        </div>
-                                        <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
-                                        <h4 class="emp-name">Shreyas Vairal</h4>
-                                        <h6 class="designation">UI/UX Designer</h6>
-                                        <span class="badge bg-primary">Active</span>
-                                        <!-- <button type="button" class="btn btn-primary">Active</button> -->
-                                        <div class="emp-info">
-                                            <div class="mail">
-                                                <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                <a href="#">satarkar@antllp.com</a>
-                                            </div>
-                                            <div class="phone">
-                                                <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                <a href="#">9876543210</a>
-                                            </div>
-                                        </div>
-                                        <div class="emp-role employee">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">Employee</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="emp-card">
-                                        <div class="emp-img">
-                                            <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
-                                        </div>
-                                        <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
-                                        <h4 class="emp-name">Priti Roy</h4>
-                                        <h6 class="designation">UI/UX Designer</h6>
-                                        <span class="badge bg-primary">Active</span>
-                                        <!-- <button type="button" class="btn btn-primary">Active</button> -->
-                                        <div class="emp-info">
-                                            <div class="mail">
-                                                <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                <a href="#">satarkar@antllp.com</a>
-                                            </div>
-                                            <div class="phone">
-                                                <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                <a href="#">9876543210</a>
-                                            </div>
-                                        </div>
-                                        <div class="emp-role employee">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">Employee</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="emp-card">
-                                        <div class="emp-img">
-                                            <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
-                                        </div>
-                                        <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
-                                        <h4 class="emp-name">Jay Sawant</h4>
-                                        <h6 class="designation">Marketing</h6>
-                                        <span class="badge bg-outline-dark">UEX</span>
-                                        <!-- <button type="button" class="btn btn-outline-dark">UEX</button> -->
-                                        <div class="emp-info">
-                                            <div class="mail">
-                                                <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                <a href="#">satarkar@antllp.com</a>
-                                            </div>
-                                            <div class="phone">
-                                                <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                <a href="#">9876543210</a>
-                                            </div>
-                                        </div>
-                                        <div class="emp-role inactive">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">Intern</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="emp-card">
-                                        <div class="emp-img">
-                                            <img src="~/Content/assests/images/avatar.png" alt="" class="avatar">
-                                        </div>
-                                        <img src="~/Content/assests/icons/edit-btn.svg" alt="" class="toggle">
-                                        <h4 class="emp-name">Priya Jadhav</h4>
-                                        <h6 class="designation">UI/UX Designer</h6>
-                                        <span class="badge bg-outline-dark">UEX</span>
-                                        <!-- <button type="button" class="btn btn-outline-dark">UEX</button> -->
-                                        <div class="emp-info">
-                                            <div class="mail">
-                                                <span><img src="~/Content/assests/icons/mail.svg" alt="" class="mail-icon"></span>
-                                                <a href="#">satarkar@antllp.com</a>
-                                            </div>
-                                            <div class="phone">
-                                                <span><img src="~/Content/assests/icons/phone.svg" alt="" class="phone-icon"></span>
-                                                <a href="#">9876543210</a>
-                                            </div>
-                                        </div>
-                                        <div class="emp-role inactive">
-                                            <div class="row role-row">
-                                                <span class="emprolh col-lg-6">Role</span>
-                                                <span class="emprolsb col-lg-6">Intern</span>
-                                            </div>
-                                            <div class="row">
-                                                <span class="emprolh col-lg-6">Date of joining</span>
-                                                <span class="emprolsb col-lg-6">01 May, 2023</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                                </div>
 
+                                                <div class="emp-role">
+                                                    <div class="row role-row">
+                                                        <span class="emprolh col-lg-6">Role</span>
+                                                        <span class="emprolsb col-lg-6">Employee</span>
+                                                    </div>
+                                                    <div class="row">
+                                                        <span class="emprolh col-lg-6">Date of joining</span>
+                                                        <span class="emprolsb col-lg-6">@(student.STD_ENTRYDATE.ToString("dd MMM, yyyy"))</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
                                 </div>
                             </div>
 
@@ -691,72 +483,57 @@
                                             <table class="table table-bordered mt-4 text-center table-striped">
                                                 <thead>
                                                     <tr>
-                                                        <th scope="col">Code</th>
+                                                        <th scope="col">Id</th>
                                                         <th scope="col">Name</th>
-                                                        <th scope="col">Role</th>
-                                                        <th scope="col">Mail</th>
+                                                        <th scope="col">Standard</th>
                                                         <th scope="col">Mobile No.</th>
-                                                        <th scope="col">PAN No.</th>
-                                                        <th scope="col">Aadhar No.</th>
-                                                        <th scope="col">Approve</th>
+                                                        <th scope="col">Medium</th>
+                                                        <th scope="col">Fees</th>
+                                                        <th scope="col">Unique Code</th>
+                                                        <th scope="col">Status</th>
                                                         <th scope="col">Action</th>
+
                                                     </tr>
                                                 </thead>
                                                 <tbody>
-                                                    <tr>
-                                                        <td>1001</td>
-                                                        <td>Shreyas Vairal</td>
-                                                        <td>Job</td>
-                                                        <td>vairals@gmail.com</td>
-                                                        <td>1234567895</td>
-                                                        <td>1234567895</td>
-                                                        <td>1234567895</td>
-                                                        <td>Sachin Jangam</td>
-                                                        <td class="d-flex align-items-center justify-content-center">
-                                                            <span class="view-icon">
-                                                                <a href="#"><img src="~/Content/assests/icons/view-icon.svg" alt=""></a>
-                                                            </span>
-                                                            <span class="download-icon">
-                                                                <a href="#"><img src="~/Content/assests/icons/edit-btn.svg" alt=""></a>
-                                                            </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1001</td>
-                                                        <td>Shreyas Vairal</td>
-                                                        <td>Job</td>
-                                                        <td>vairals@gmail.com</td>
-                                                        <td>1234567895</td>
-                                                        <td>1234567895</td>
-                                                        <td>1234567895</td>
-                                                        <td>Sachin Jangam</td>
-                                                        <td class="d-flex align-items-center justify-content-center">
-                                                            <span class="view-icon">
-                                                                <a href="#"><img src="~/Content/assests/icons/view-icon.svg" alt=""></a>
-                                                            </span>
-                                                            <span class="download-icon">
-                                                                <a href="#"><img src="~/Content/assests/icons/edit-btn.svg" alt=""></a>
-                                                            </span>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>1001</td>
-                                                        <td>Shreyas Vairal</td>
-                                                        <td>Job</td>
-                                                        <td>vairals@gmail.com</td>
-                                                        <td>1234567895</td>
-                                                        <td>1234567895</td>
-                                                        <td>1234567895</td>
-                                                        <td>Sachin Jangam</td>
-                                                        <td class="d-flex align-items-center justify-content-center">
-                                                            <span class="view-icon">
-                                                                <a href="#"><img src="~/Content/assests/icons/view-icon.svg" alt=""></a>
-                                                            </span>
-                                                            <span class="download-icon">
-                                                                <a href="#"><img src="~/Content/assests/icons/edit-btn.svg" alt=""></a>
-                                                            </span>
-                                                        </td>
-                                                    </tr>
+                                                    @foreach (var student in ViewBag.Preadmission)
+                                                    {
+                                                        <tr>
+                                                            <td>@student.STD_ID</td>
+                                                            <td>@student.STD_FNAME @student.STD_LNAME</td>
+                                                            <td>@student.STD_CLASS</td>
+                                                            <td>@student.STD_MOBILENO</td>
+                                                            <td>@student.STD_MEDIUM</td>
+                                                            <td>@student.STD_AFEES</td>
+                                                            <td>@student.STD_UNIQUECODE</td>
+                                                            <td>
+                                                                @if (student.STD_STSID == 10)
+                                                                {
+                                                                    <span class="badge bg-warning text-dark">Pending</span>
+                                                                }
+                                                                else if (student.STD_STSID == 20)
+                                                                {
+                                                                    <span class="badge bg-success">Paid</span>
+                                                                }
+                                                                else if (student.STD_STSID == 30)
+                                                                {
+                                                                    <span class="badge bg-danger">Fail</span>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <span class="badge bg-secondary">Unknown Status</span>
+                                                                }
+                                                            </td>
+                                                            <td class="d-flex align-items-center justify-content-center">
+                                                                <span class="view-icon">
+                                                                    <a href="#"><img src="~/Content/assests/icons/view-icon.svg" alt=""></a>
+                                                                </span>
+                                                                <span class="download-icon">
+                                                                    <a href="#"><img src="~/Content/assests/icons/edit-btn.svg" alt=""></a>
+                                                                </span>
+                                                            </td>
+                                                        </tr>
+                                                    }
 
                                                 </tbody>
                                             </table>
